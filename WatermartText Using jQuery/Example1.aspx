@@ -13,7 +13,7 @@
                 if (txtNameBox.val() == this.title)
                     txtNameBox.val("");
             });
-            txtNameBox.blur(function () {
+            txtNameBox.blur(function ()  {
                 if (txtNameBox.val() == "")
                     txtNameBox.val(this.title);
             });
